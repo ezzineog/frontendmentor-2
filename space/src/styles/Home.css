@@ -1,0 +1,41 @@
+.catalog {
+  display: flex;
+  position: relative;
+  /* width: 100%; */
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+}
+.intro-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 5% 0 0 0;
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../public//images//home/background-home-desktop.jpg");
+  color: #fff;
+  justify-content: space-around;
+}
+.intro-paragraph {
+  padding: 5px;
+  flex: 0.3;
+}
+.intro-paragraph > h1 {
+  font-family: "Bellefair", serif;
+  letter-spacing: 4.75;
+}
+.intro-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  height: 250px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.intro-circle:hover {
+  border: 80px solid lightgray;
+}
